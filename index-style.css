@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding:0;
+    border: border-box;
+}
+.custom-navbar-bg {
+    padding: 10px;
+    background-color: #ffd166;
+    color: #000000;
+}
+.border1:hover{
+    border: 1px solid black;
+    border-radius: 6px;
+    text-decoration-color: black;
+    font-weight: bold;
+}
+.border2:hover{
+    border: 10px solid palevioletred;
+    border-radius: 18px;
+}
+
+.w-40 {
+    width: 60% !important;
+}
+
+.nav-search {
+    display: flex;
+    align-items: center;
+}
+.navbarx{
+    background-color: #ddd;
+    font-size: large;
+    font-weight: 500;
+}
+.navbar-nav .nav-item .nav-link {
+    padding: 0.5rem 1rem;
+}
+
+.navbar-links {
+    background-color: #fefae0;
+    padding: 0.5rem 0;
+}
+
+.navbar-links .nav-link {
+    color:#000000;
+    text-decoration: none;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.navbar-links .nav-link:hover {
+    text-decoration: underline;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+.card {
+    margin: 2px;
+    border:2px solid palevioletred;
+}
+
+.card img {
+    width: 100%;
+    height: 500px;
+    display:inline-block;
+    border-radius: 50%;
+}
+
+.flash-deal-card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.flash-deal-card:hover{
+    cursor: pointer;
+    border: 2px solid;
+}
+.flash-deal-card .card-img-top {
+    width: 100%;
+    height: 300px;
+    border-radius:0;
+}
+
+.flash-deal-card .card-body {
+    padding: 15px;
+}
+
+.flash-deal-card .card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.flash-deal-card .card-text {
+    font-size: 1rem;
+    margin-bottom: 15px;
+}
+
+.flash-deal-card .card-price {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #28a745;
+    margin-bottom: 15px;
+}
+
+.flash-deal-card .btn {
+    background-color: #007bff;
+    color: white;
+    width: 100%;
+}
+.row.g-0 {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.row.g-0 > [class*='col-'] {
+    padding-right: 0;
+    padding-left: 0;
+}
+.footer {
+    background-color: #f1faee;
+    border-top: 1px solid #e7e7e7;
+    padding: 20px 0;
+}
+
+.footer a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.footer .row {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer p {
+    margin: 0;
+    color: #6c757d;
+}
+
+@media (max-width: 300px) {
+    .navbar-collapse {
+        flex-direction: column;
+    }
+    .nav-search {
+        width: 100%;
+        margin-top: 1rem;
+    }
+}
+
