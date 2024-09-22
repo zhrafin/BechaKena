@@ -1,3 +1,4 @@
+
 # BechaKena - E-Commerce and Auction Platform
 
 ## Overview
@@ -15,21 +16,26 @@ BechaKena is a dynamic e-commerce platform that integrates auction capabilities 
 ## Technologies Used
 
 - **Frontend**:
-  - CSS
+  - HTML
+  - CSS (Bootstrap 5)
+  - JavaScript
+  - Font Awesome
 
 - **Backend**:
   - PHP
   - MySQL
 
-## Dependencies
-
-### Required Downloads/Installations
-
-- **PHP**
-- **MySQL**
-
+- **Database Management**:
+  - Redis (for caching and session management)
 
 ## Installation
+
+### Prerequisites
+
+- PHP 7.4 or higher
+- MySQL 5.7 or higher
+- Composer (for dependency management)
+- Redis (for caching and session management)
 
 ### Clone the Repository
 
@@ -73,69 +79,32 @@ cd bechakena
 
 The `next_auction.php` page displays a countdown timer for the next auction. The timer updates every second to show the remaining time.
 
+![Next Auction Countdown](path/to/next_auction_screenshot.png) 
 
 ### My Orders
 
 The `my_orders.php` page allows users to view their order history. It includes details such as order ID, product name, category, price, order time, quantity, address, and contact information.
 
+![My Orders](path/to/my_orders_screenshot.png)
+
 ### Profile Management
 
 Users can update their profile picture and personal information. The profile section also displays user stats such as total bids, winning bids, and available credits.
 
-
-
-## Project Execution
-
-To execute the BechaKena project:
-
-1. **Copy the project files**: Place the project folder inside the `htdocs` directory, which is located inside the XAMPP installation folder.
-   - For example, if you’ve cloned the repository, move the folder to:  
-     `C:\xampp\htdocs\bechakena`
-
-2. **Start XAMPP**:
-   - Open XAMPP and start both **Apache** and **MySQL** services.
-
-3. **Database Setup**:
-   - Navigate to `localhost/phpmyadmin` in your browser.
-   - Create a new database and import the provided SQL scripts to set up the database schema and seed initial data.
-
-4. **Run the project**:
-   - In your browser, go to `localhost/your-project-folder-name`. For example:
-     ```
-     localhost/CSE3100-SD-IV-main
-     ```
-This will launch the BechaKena application, and you can start using it from there.
-
 ### Screenshots
 
+<img src="assets/assets/Screenshot_6.png" alt="GUI Screenshot 6" width="700" />
+
 <div style="display: flex; gap: 10px; justify-content: center;">
-    <img src="images/demo/Screenshot_1.png" alt="GUI Screenshot 1" width="400" />
-    <img src="images/demo/Screenshot_2.png" alt="GUI Screenshot 2" width="400" />
+    <img src="assets/assets/Screenshot_2.png" alt="GUI Screenshot 6" width="400" />
+    <img src="assets/assets/Screenshot_3.png" alt="GUI Screenshot 7" width="400" />
 </div>
 
 <div style="display: flex; gap: 10px; justify-content: center;">
-    <img src="images/demo/Screenshot_3.png" alt="GUI Screenshot 3" width="400" />
-    <img src="images/demo/Screenshot_4.png" alt="GUI Screenshot 4" width="400" />
+    <img src="assets/assets/Screenshot_4.png" alt="GUI Screenshot 6" width="400" />
+    <img src="assets/assets/Screenshot_5.png" alt="GUI Screenshot 7" width="400" />
 </div>
 
-<div style="display: flex; gap: 10px; justify-content: center;">
-    <img src="images/demo/Screenshot_5.png" alt="GUI Screenshot 5" width="400" />
-    <img src="images/demo/Screenshot_6.png" alt="GUI Screenshot 6" width="400" />
-</div>
-
-<div style="display: flex; gap: 10px; justify-content: center;">
-    <img src="images/demo/Screenshot_7.png" alt="GUI Screenshot 7" width="400" />
-    <img src="images/demo/Screenshot_8.png" alt="GUI Screenshot 8" width="400" />
-</div>
-
-
-## Screencast
-
-You can view the screencast of the project demonstration at this link: [BechaKena Screencast](https://drive.google.com/file/d/19M_qBgQunZbAbWxzYU07Ynro7uvn6lcy/view?usp=sharing).
-
-## Project Report
-
-The project report detailing the features, architecture, and implementation can be accessed here: [BechaKena Project Report](https://docs.google.com/document/d/1qQZ7OB776RMVo-fUZHDa9EsAtNwmc3TJ/edit?usp=sharing&ouid=109137004160820100145&rtpof=true&sd=true).
 
 ## Contributing
 
@@ -146,8 +115,3 @@ Contributions are welcome! Please follow these steps to contribute:
 3. Commit your changes (`git commit -am 'Add new feature'`).
 4. Push to the branch (`git push origin feature/your-feature`).
 5. Create a new Pull Request.
-
-## Additional Information
-
-If you'd like to contribute any additional features, such as improving the auction mechanism, enhancing the user dashboard, or optimizing the bidding process, feel free to open an issue or a pull request. Your contributions are appreciated!
-

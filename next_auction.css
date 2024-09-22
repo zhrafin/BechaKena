@@ -1,0 +1,56 @@
+body {
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+.auction-timer {
+    background-color:beige;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.auction-timer h1 {
+    margin-bottom: 20px;
+}
+
+.countdown {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.time {
+    background-color: #007bff;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.time p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.stay-tuned {
+    font-size: 18px;
+    color: #6c757d;
+}
+
+@media (max-width: 768px) {
+    .auction-timer {
+        padding: 20px;
+    }
+
+    .time {
+        padding: 10px;
+        font-size: 18px;
+    }
+}

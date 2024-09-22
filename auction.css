@@ -1,0 +1,80 @@
+body {
+    background-color: #f8f9fa;
+}
+#auctionTimer {
+    font-family: Times, serif;
+    font-size: 3em;
+    font-weight: bold;
+    color:#000000;
+    border:#ff006e dotted;
+    border-radius: 10px;
+    background-color:wheat;
+}
+.card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-img-top {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 350px;
+    object-fit: cover;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+}
+
+.card-text {
+    color: #6c757d;
+    margin-bottom: 15px;
+}
+
+.price-info {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1rem;
+    margin-bottom: 15px;
+}
+
+.current-bid {
+    font-weight: bold;
+    color: #17a2b8;
+}
+
+.buy-now {
+    font-weight: bold;
+    color: #dc3545;
+}
+
+.input-group {
+    margin-bottom: 10px;
+}
+
+.input-group .form-control {
+    border-radius: 0;
+}
+
+.input-group .btn {
+    background-color: #ff006e;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.2s;
+}
+
+.input-group .btn:hover {
+    background-color: #e6005e;
+}
